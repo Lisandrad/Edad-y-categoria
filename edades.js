@@ -13,9 +13,11 @@ function edades() {
     alert("Eres menor de edad.")
   } else if (valor >= 18 && valor <=64) {
     alert("Eres adulto.")
-  } else if ( valor <=65) {
+  } else if ( valor >=65) {
     alert("Eres un adulto mayor.")}
 
 edades();
 }
 edades();
+
+
